@@ -46,7 +46,7 @@
     <section class="w-[95%] lg:w-[61%] mx-auto p-5">
       <!-- header section -->
       <header>
-        <!-- navbar whth daisy ui -->
+        <!-- Navbar with DaisyUI -->
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -56,8 +56,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
               </div>
-              <!-- Nav bar -->
-              <!-- mobile menu -->
+              <!-- Mobile Menu -->
               <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 <li><a href="">Home</a></li>
                 <li class="dropdown dropdown-hover">
@@ -91,55 +90,53 @@
                 </li>
               </ul>
             </div>
-            <!-- logo -->
+            <!-- Logo -->
             <div>
-              <img src="images/logo2.png" alt="Logo" class="text-black">
+              <img src="images/logo2.png" alt="Logo" class="text-black" />
             </div>
           </div>
-          <!-- desktop menu -->
+          <!-- Desktop Menu -->
           <div class="navbar-center hidden lg:flex">
-            <div class="navbar bg-base-100">
-              <ul class="menu menu-horizontal px-1">
-                <li><a href="">Home</a></li>
-                <li class="dropdown dropdown-hover">
-                  <a href="" tabindex="0">Services <i class="fas fa-chevron-right"></i>
-                  </a>
-                  <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
-                    <li><a href="">Delivery</a></li>
-                    <li><a href="">Discount</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown dropdown-hover">
-                  <a href="">Cases <i class="fas fa-chevron-right"></i></a>
-                  <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
-                    <li><a href="">Case Study 1</a></li>
-                    <li><a href="">E-commerce</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown dropdown-hover">
-                  <a href="">Blog <i class="fas fa-chevron-right"></i></a>
-                  <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown dropdown-hover">
-                  <a href="">Contact Us <i class="fas fa-chevron-right"></i></a>
-                  <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
-                    <li><a href="">Email</a></li>
-                    <li><a href="">Whatsapp</a></li>
-                    <li><a href="">Phone</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+            <ul class="menu menu-horizontal px-1">
+              <li><a href="">Home</a></li>
+              <li class="dropdown dropdown-hover">
+                <a href="" tabindex="0">Services</a>
+                <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
+                  <li><a href="">Delivery</a></li>
+                  <li><a href="">Discount</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-hover">
+                <a href="">Cases</a>
+                <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
+                  <li><a href="">Case Study 1</a></li>
+                  <li><a href="">E-commerce</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-hover">
+                <a href="">Blog</a>
+                <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
+                  <li><a href="">Services</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-hover">
+                <a href="">Contact Us</a>
+                <ul class="dropdown-content menu p-2 bg-base-200 rounded-box w-auto">
+                  <li><a href="">Email</a></li>
+                  <li><a href="">Whatsapp</a></li>
+                  <li><a href="">Phone</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
           <div class="navbar-end">
             <button class="font-semibold text-lg text-white bg-gold px-5 py-4 rounded-lg">Free Consultation</button>
           </div>
         </div>
+
         <!-- Hero Section -->
-        <div class="hero bg-hero bg-gradient-to-r from-black rounded-lg mt-12">
+        <div class="hero bg-cover bg-center" style="background-image: url('images/banner.png');">
           <div class="hero-content text-center lg:px-[230px] lg:py-[140px]">
             <div class="text-white">
               <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold font-titlefont">We Provide Effective Legal
@@ -147,7 +144,7 @@
               <p class="py-6 font-poppins font-normal text-base">There are many variations of passages of Lorem Ipsum
                 available, but the majority have suffered alteration in some form, by injected humour.</p>
               <div class="flex gap-5 justify-center items-center">
-                <input type="text" id="search" name="search" placeholder="Search your services" class=" w-full max-w-xs"
+                <input type="text" placeholder="Search your services" id="Search" name="search" class="input input-bordered w-full max-w-full"
                   disabled />
                 <button class="btn font-semibold text-lg text-white bg-gold">Search</button>
               </div>
@@ -155,6 +152,7 @@
           </div>
         </div>
       </header>
+
       <!-- main section -->
       <main>
         <!-- The Legal Practice Area -->
@@ -378,48 +376,55 @@
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
             <!-- Contact Cards -->
             <div class="grid grid-cols-1 lg:grid-cols-2">
-                <!-- Card 1: Address -->
-                <div class="p-4 md:p-7 lg:p-10 text-center border-b border-r border-gray-300 bg-[#F3F3F3]">
-                    <img src="images/address.png" alt="" class="mx-auto py-2 max-w-full">
-                    <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Address</h5>
-                    <p class="py-6 font-poppins font-normal text-base text-[#707070]">A108 Adam Street,<br>New York, NY 535022</p>
-                </div>
-        
-                <!-- Card 2: Call Us -->
-                <div class="p-4 md:p-7 lg:p-10 text-center border-b border-gray-300 bg-[#F3F3F3]">
-                    <img src="images/call.png" alt="" class="mx-auto py-2 max-w-full">
-                    <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Call Us</h5>
-                    <p class="py-6 font-poppins font-normal text-base text-[#707070]">+88 01750 00 00 00<br> +88 01750 00 00 00</p>
-                </div>
-        
-                <!-- Card 3: Email Us -->
-                <div class="p-4 md:p-7 lg:p-10 text-center border-r border-gray-300 bg-[#F3F3F3]">
-                    <img src="images/email.png" alt="" class="mx-auto py-2 max-w-full">
-                    <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Email Us</h5>
-                    <p class="py-6 font-poppins font-normal text-base text-[#707070]">info@gmail.com <br> info@gmail.com</p>
-                </div>
-        
-                <!-- Card 4: Working Hours -->
-                <div class="p-4 md:p-7 lg:p-10 text-center bg-[#F3F3F3]">
-                    <img src="images/time.png" alt="" class="mx-auto py-2 max-w-full">
-                    <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Working Hours</h5>
-                    <p class="py-6 font-poppins font-normal text-base text-[#707070]">Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
-                </div>
+              <!-- Card 1: Address -->
+              <div class="p-4 md:p-7 lg:p-10 text-center border-b border-r border-gray-300 bg-[#F3F3F3]">
+                <img src="images/address.png" alt="" class="mx-auto py-2 max-w-full">
+                <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Address</h5>
+                <p class="py-6 font-poppins font-normal text-base text-[#707070]">A108 Adam Street,<br>New York, NY
+                  535022</p>
+              </div>
+
+              <!-- Card 2: Call Us -->
+              <div class="p-4 md:p-7 lg:p-10 text-center border-b border-gray-300 bg-[#F3F3F3]">
+                <img src="images/call.png" alt="" class="mx-auto py-2 max-w-full">
+                <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Call Us</h5>
+                <p class="py-6 font-poppins font-normal text-base text-[#707070]">+88 01750 00 00 00<br> +88 01750 00 00
+                  00</p>
+              </div>
+
+              <!-- Card 3: Email Us -->
+              <div class="p-4 md:p-7 lg:p-10 text-center border-r border-gray-300 bg-[#F3F3F3]">
+                <img src="images/email.png" alt="" class="mx-auto py-2 max-w-full">
+                <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Email Us</h5>
+                <p class="py-6 font-poppins font-normal text-base text-[#707070]">info@gmail.com <br> info@gmail.com</p>
+              </div>
+
+              <!-- Card 4: Working Hours -->
+              <div class="p-4 md:p-7 lg:p-10 text-center bg-[#F3F3F3]">
+                <img src="images/time.png" alt="" class="mx-auto py-2 max-w-full">
+                <h5 class="text-2xl font-extrabold font-titlefont text-[#414040]">Working Hours</h5>
+                <p class="py-6 font-poppins font-normal text-base text-[#707070]">Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to
+                  1 PM</p>
+              </div>
             </div>
-        
+
             <!-- Contact Form -->
             <div class="">
-                <form action="">
-                    <input type="text" placeholder="Your Name" class="bg-[#F3F3F3] p-6 rounded-lg w-full mb-7" id="name" name="name" autocomplete="name" />
-                    <input type="email" placeholder="Your Email" class="bg-[#F3F3F3] p-6 rounded-lg w-full mb-7" id="email" name="email" autocomplete="email" />
-                    <input type="text" placeholder="Subject" class="bg-[#F3F3F3] p-6 rounded-lg w-full mb-7" id="subject" name="subject" />
-                    <textarea class="bg-[#F3F3F3] p-5 rounded-lg w-full h-[162px] mb-7" placeholder="Your Message" id="message" name="message"></textarea>
-                    <button type="submit" class="bg-gold text-white p-4 rounded-lg w-full">Send Message</button>
-                </form>
+              <form action="">
+                <input type="text" placeholder="Your Name" class="bg-[#F3F3F3] p-6 rounded-lg w-full mb-7" id="name"
+                  name="name" autocomplete="name" />
+                <input type="email" placeholder="Your Email" class="bg-[#F3F3F3] p-6 rounded-lg w-full mb-7" id="email"
+                  name="email" autocomplete="email" />
+                <input type="text" placeholder="Subject" class="bg-[#F3F3F3] p-6 rounded-lg w-full mb-7" id="subject"
+                  name="subject" />
+                <textarea class="bg-[#F3F3F3] p-5 rounded-lg w-full h-[162px] mb-7" placeholder="Your Message"
+                  id="message" name="message"></textarea>
+                <button type="submit" class="bg-gold text-white p-4 rounded-lg w-full">Send Message</button>
+              </form>
             </div>
-        </div>
-        
-          
+          </div>
+
+
         </section>
       </main>
     </section>
